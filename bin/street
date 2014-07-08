@@ -6,7 +6,7 @@ var street = require('../index')
 program
   .version('0.1.0')
   .option('-n, --dry-run', 'Dry Run')
-  .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
+  .option('-c, --content-dir', 'Content Directory to upload to S3')
   .parse(process.argv);
 
 console.log(program.dryRun);
