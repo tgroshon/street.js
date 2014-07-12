@@ -2,13 +2,20 @@
 
 'use strict'
 
-var program = require('commander');
+var program = require('commander')
+var fs = require('fs')
 var street = require('../index')
 
 program
   .version('0.1.0')
+  .usage('[options] <dir ...>')
   .option('-n, --dry-run', 'Dry Run')
-  .option('-c, --content-dir', 'Content Directory to upload to S3')
-  .parse(process.argv);
+  .parse(process.argv)
 
-console.log(program.dryRun);
+if (program.args.length != 1)
+  return console.error('Error: One positional argument of a directory path is required. ' + program.args.length + ' found')
+
+if (!fs.existsSync(program.args[0]))
+  return console.error('Error: ' + program.args[0]+ ' directory does not exist.')
+
+street(program.args[0], program.dryRun)

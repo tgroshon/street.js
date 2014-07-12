@@ -1,7 +1,7 @@
 'use strict'
 
-// module.exports = require('./lib/street')
+var debug = require('debug')('street:setup')
+require('dotenv').load()
 
-// TODO remove below; uncomment above
-var street = require('./lib/street')
-street('./fakes')
+debug('environment loaded')
+module.exports = require('./lib/street')
