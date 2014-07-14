@@ -54,35 +54,45 @@ variables:
 Instead of using Environment Variables, you can some or all of these through
 the command line options `--aws-key`, `--aws-secret`, and `--bucket`
 respectively.
-`street -e path/to/upload/dir`
+
+*Example*: `street -e path/to/upload/dir`
 
 #### -b, --bucket [bucket], S3 Destination Bucket ####
 
 The Amazon S3 bucket to be the destination of your uploaded files.
-`street -b <S3 bucket name> path/to/upload/dir`
+
+*Example*: `street -b <S3 bucket name> path/to/upload/dir`
 
 #### -k, --aws-key [key], AWS Access Key Id ####
 
 The AWS Access Key Id to be used for authenticating the S3 session.  User must
 have `PUT` and `GET` permissions on the bucket.
-`street -k <AWS Access Key Id> path/to/upload/dir`
+
+*Example*: `street -k <AWS Access Key Id> path/to/upload/dir`
 
 #### -s, --aws-secret [secret], AWS Secret Access Key ####
 
 The AWS Secret Access Key associated with the AWS Access Key Id you are using.
-`street -s <AWS Secret Key> path/to/upload/dir`
+
+*Example*: `street -s <AWS Secret Key> path/to/upload/dir`
 
 #### -v, --verbose, Run with expanded messages ####
 
 Shows the number of files uploaded, but not much else.  This option will do more
 in the future.
-`street -v /path/to/upload/dir`
+
+*Example*: `street -v /path/to/upload/dir`
 
 #### -n, --dry-run, Run but do not upload ####
 
 Best if used in conjuction with `DEBUG=street:*` or `--verbose` option.
+
+*Example*:
+
 `street -n path/to/upload/dir`
+
 `street -nv path/to/upload/dir`
+
 `DEBUG=street:* street -n path/to/upload/dir`
 
 Run Programmatically
