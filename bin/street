@@ -10,6 +10,11 @@ program
   .version('0.1.0')
   .usage('[options] <dir ...>')
   .option('-n, --dry-run', 'Dry Run')
+  .option('-e, --load-env', 'Load Environment Variables with "dotenv" package')
+  .option('-b, --bucket [bucket]', 'S3 Destination Bucket')
+  .option('-k, --aws-key [key]', 'AWS Access Key Id')
+  .option('-s, --aws-secret [secret]', 'AWS Secret Access Key')
+  .option('-v, --verbose', 'Run with expanded messages')
   .parse(process.argv)
 
 if (program.args.length != 1)
@@ -18,4 +23,16 @@ if (program.args.length != 1)
 if (!fs.existsSync(program.args[0]))
   return console.error('Error: ' + program.args[0]+ ' directory does not exist.')
 
-street(program.args[0], program.dryRun)
+try {
+  street({
+    src: program.args[0],
+    isDryRun: program.dryRun,
+    dest: program.bucket,
+    awsKey: program.awsKey,
+    awsSecret: program.awsSecret,
+    loadEnv: program.loadEnv,
+    verbose: program.verbose
+  })
+} catch (err) {
+  console.error(err)
+}
