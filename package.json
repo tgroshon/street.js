@@ -1,5 +1,5 @@
 {
-  "name": "street.js",
+  "name": "street",
   "version": "0.6.0",
   "description": "Smart Uploader for S3 buckets.",
   "main": "index.js",
