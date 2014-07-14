@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/opt/nvm/v0.11.11/bin/node',
+1 verbose cli   '/usr/local/opt/nvm/v0.11.11/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.25
+3 info using node@v0.11.11
+4 verbose node symlink /usr/local/opt/nvm/v0.11.11/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/tgroshong/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+13 verbose folder .
+14 info prepublish street@0.6.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/tgroshong/.npm/1f1177db-tar.lock
+17 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+18 verbose lock tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz /Users/tgroshong/.npm/63bed874-67984-0-8784951961133629-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+22 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+23 verbose tar unpack /var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+24 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+25 verbose lock tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package /Users/tgroshong/.npm/933cbfe7-67984-0-8784951961133629-package.lock
+26 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+27 verbose lock tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz /Users/tgroshong/.npm/63bed874-67984-0-8784951961133629-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry bin/street
+35 silly gunzTarPerm extractEntry lib/bucket-communicator.js
+36 silly gunzTarPerm extractEntry lib/manifest-builder.js
+37 silly gunzTarPerm extractEntry lib/s3.js
+38 silly gunzTarPerm extractEntry lib/street.js
+39 silly gunzTarPerm extractEntry lib/uploadable-collector.js
+40 silly gunzTarPerm extractEntry lib/uploadable.js
+41 silly gunzTarPerm extractEntry lib/validate-options.js
+42 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+43 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+44 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+45 silly lockFile 63bed874-67984-0-8784951961133629-tmp-tgz tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/tmp.tgz
+46 verbose tar pack [ '/Users/tgroshong/.npm/street/0.6.1/package.tgz',
+46 verbose tar pack   '/var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package' ]
+47 verbose tarball /Users/tgroshong/.npm/street/0.6.1/package.tgz
+48 verbose folder /var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+49 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+50 verbose lock tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package /Users/tgroshong/.npm/933cbfe7-67984-0-8784951961133629-package.lock
+51 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+52 verbose lock tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz /Users/tgroshong/.npm/892e8805-ong-npm-street-0-6-1-package-tgz.lock
+53 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+54 silly lockFile 933cbfe7-67984-0-8784951961133629-package tar:///var/folders/3f/r5vtpjsx6fj2vx9f9v0vpzlwdv0qg_/T/npm-16169-OelrhBjH/1405367067984-0.8784951961133629/package
+55 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+56 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+57 silly lockFile ebfc74ed-roshong-npm-street-0-6-1-package /Users/tgroshong/.npm/street/0.6.1/package
+58 verbose lock /Users/tgroshong/.npm/street/0.6.1/package /Users/tgroshong/.npm/ebfc74ed-roshong-npm-street-0-6-1-package.lock
+59 silly lockFile ebfc74ed-roshong-npm-street-0-6-1-package /Users/tgroshong/.npm/street/0.6.1/package
+60 silly lockFile ebfc74ed-roshong-npm-street-0-6-1-package /Users/tgroshong/.npm/street/0.6.1/package
+61 verbose tar unpack /Users/tgroshong/.npm/street/0.6.1/package.tgz
+62 silly lockFile 2bd928bd-roshong-npm-street-0-6-1-package tar:///Users/tgroshong/.npm/street/0.6.1/package
+63 verbose lock tar:///Users/tgroshong/.npm/street/0.6.1/package /Users/tgroshong/.npm/2bd928bd-roshong-npm-street-0-6-1-package.lock
+64 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+65 verbose lock tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz /Users/tgroshong/.npm/892e8805-ong-npm-street-0-6-1-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm extractEntry index.js
+72 silly gunzTarPerm extractEntry bin/street
+73 silly gunzTarPerm extractEntry lib/bucket-communicator.js
+74 silly gunzTarPerm extractEntry lib/manifest-builder.js
+75 silly gunzTarPerm extractEntry lib/s3.js
+76 silly gunzTarPerm extractEntry lib/street.js
+77 silly gunzTarPerm extractEntry lib/uploadable-collector.js
+78 silly gunzTarPerm extractEntry lib/uploadable.js
+79 silly gunzTarPerm extractEntry lib/validate-options.js
+80 silly lockFile 2bd928bd-roshong-npm-street-0-6-1-package tar:///Users/tgroshong/.npm/street/0.6.1/package
+81 silly lockFile 2bd928bd-roshong-npm-street-0-6-1-package tar:///Users/tgroshong/.npm/street/0.6.1/package
+82 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+83 silly lockFile 892e8805-ong-npm-street-0-6-1-package-tgz tar:///Users/tgroshong/.npm/street/0.6.1/package.tgz
+84 verbose chmod /Users/tgroshong/.npm/street/0.6.1/package.tgz 644
+85 verbose chown /Users/tgroshong/.npm/street/0.6.1/package.tgz [ 464543210, 1095186886 ]
+86 silly lockFile 3a52ce78- .
+87 silly lockFile 3a52ce78- .
+88 silly publish { name: 'street',
+88 silly publish   version: '0.6.1',
+88 silly publish   description: 'Smart Uploader for S3 buckets.',
+88 silly publish   main: 'index.js',
+88 silly publish   preferGlobal: 'true',
+88 silly publish   bin: { street: './bin/street' },
+88 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+88 silly publish   repository: { type: 'git', url: 'git://github.com/tgroshon/street.js.git' },
+88 silly publish   keywords: [ 'aws', 's3', 'deploy' ],
+88 silly publish   author: { name: 'tgroshon' },
+88 silly publish   license: 'MIT',
+88 silly publish   bugs: { url: 'https://github.com/tgroshon/street.js/issues' },
+88 silly publish   homepage: 'https://github.com/tgroshon/street.js',
+88 silly publish   devDependencies: { mocha: '~1.20.1' },
+88 silly publish   dependencies:
+88 silly publish    { commander: '~2.2.0',
+88 silly publish      'aws-sdk': '~2.0.5',
+88 silly publish      rsvp: '~3.0.9',
+88 silly publish      dotenv: '~0.4.0',
+88 silly publish      debug: '~1.0.3',
+88 silly publish      mime: '~1.2.11' },
+88 silly publish   readme: 'street.js\n=========\n\nSmart Uploader for AWS S3 buckets.  Generates a manifest file upon first upload;\nsubsequent uploads only send changed files.  Especially useful as a deploy tool\nfor uploading static websites to S3. Benefits of using Street:\n\n* Upload only changed files; reduces **PUT** requests.\n* GZip Compressed **manifest** file stored on S3 is very small.\n* Mime-type lookup on upload to facilitate proper browser handling.\n* Non-destructive *(mostly)*.  Works with existing buckets and data. See *Manifest\n  File* section below for more details.\n\ntl;dr\n-----\n\n* Install globally with `npm install -g street` to get the `street` cli tool.\n* Put **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** in `.env` file\n  at root of your project *(also smart to add it to your `.gitignore`)*.\n* Run `street -e -b <Target S3 Bucket> path/to/upload/dir`\n\nInstallation\n------------\n\nInstall with `npm`.  A global installation is preferable:\n\n```bash\n# preferred global install\nnpm install -g street\n\n# local install for specific setups\nnpm install street\n```\n\nCommand Line\n------------\n\nA helpful interface into Street is using the command line tool `bin/street`.\nIf you installed globally, it should be available on your path as `street`. The\ncommand line tool requires a path to a directory that you want to upload to S3.\nRun `street --help` to see a list of options.\n\n#### -e, --load-env, Load Environment Variables ####\n\nStreet includes the [dotenv](https://www.npmjs.org/package/dotenv-node) node\npackage for convenient Environment Variable loading.  Enter your AWS credentials\ninto a `.env` file at the root of your project.  Street searches for three (3)\nvariables:\n\n1. **AWS_ACCESS_KEY_ID**\n2. **AWS_SECRET_ACCESS_KEY**\n3. **S3_BUCKET**\n\nInstead of using Environment Variables, you can some or all of these through\nthe command line options `--aws-key`, `--aws-secret`, and `--bucket`\nrespectively.\n\n*Example*: `street -e path/to/upload/dir`\n\n#### -b, --bucket [bucket], S3 Destination Bucket ####\n\nThe Amazon S3 bucket to be the destination of your uploaded files.\n\n*Example*: `street -b <S3 bucket name> path/to/upload/dir`\n\n#### -k, --aws-key [key], AWS Access Key Id ####\n\nThe AWS Access Key Id to be used for authenticating the S3 session.  User must\nhave `PUT` and `GET` permissions on the bucket.\n\n*Example*: `street -k <AWS Access Key Id> path/to/upload/dir`\n\n#### -s, --aws-secret [secret], AWS Secret Access Key ####\n\nThe AWS Secret Access Key associated with the AWS Access Key Id you are using.\n\n*Example*: `street -s <AWS Secret Key> path/to/upload/dir`\n\n#### -v, --verbose, Run with expanded messages ####\n\nShows the number of files uploaded, but not much else.  This option will do more\nin the future.\n\n*Example*: `street -v /path/to/upload/dir`\n\n#### -n, --dry-run, Run but do not upload ####\n\nBest if used in conjuction with `DEBUG=street:*` or `--verbose` option.\n\n*Example*:\n\n`street -n path/to/upload/dir`\n\n`street -nv path/to/upload/dir`\n\n`DEBUG=street:* street -n path/to/upload/dir`\n\nRun Programmatically\n--------------------\n\nRunning `var street = require(\'street\')` will get you access to the the\nunderlying function.  Call the exposed function with a map of parameters:\n\n```javascript\nvar street = require(\'street\');\n\nvar params = {\n  src: \'path/to/upload/dir\',     // Path to directory to upload.\n  isDryRun: false,               // Disable upload mechanism.\n  dest: \'bucketname.com\',        // Name of S3 Bucket to upload to.\n  awsKey: \'AWS Access Key Id\',   // AWS Access Key Id for authentication w/ S3.\n  awsSecret: \'AWS Secret Key\',   // AWS Secret Key for authentication w/ S3.\n  loadEnv: true,                 // Load Environment Variables with \'dotenv\'.\n  verbose: true,                 // Trigger extra messages.\n};\n\nstreet(params); // Begins Deploy Process\n```\n\nYou can make this part of a [Grunt](http://gruntjs.com/) task or your own,\nstandalone deploy script.  Dealer\'s choice!\n\n\nManifest File\n-------------\nThe **manifest** file is a GZipped JSON file that maps S3 Object Keys (file\nnames) to MD5 Hashes.\n\nThe **manifest** file is generated each time Street is run.  On the first run\nof Street on a specific directory, the **manifest** file is written to that\ndirectory (called the *upload directory*), and all files it found are uploaded to\nS3.  The next time Street is run, a **new manifest** is generated locally, the\n**old manifest** is pulled down from S3, and the two files are compared to\nsearch for differences.  The **new manifest** is only written if files have\nbeen changed.  If files have been changed, the new **manifest** and changed\nfiles are then uploaded to S3 where they replace the objects of the same name.\n\nThis approach has two important effects that you should be aware of:\n\n1. **\\*IMPORTANT\\*** Upon first run of Street, all files in the directory\n   and a new **manifest** file will be uploaded and replace S3 objects with\n   the same name.\n\n2. A **manifest** file on S3 does *not* hold information on all the objects in\n   that bucket; only on objects that Street has specifically uploaded.\n\nKeep these in mind as you work.\n\nDevelopment Tasks\n-----------------\n\nStreet is in *very early* development. Here are some things that would be very\nhelpful.\n\n* Tests, Tests, and more Tests\n* Integration story with Build/Deploy tools like Grunt, Gulp, or Broccoli\n* Performance Benchmarks (because people always ask)\n',
+88 silly publish   readmeFilename: 'README.md',
+88 silly publish   _id: 'street@0.6.1',
+88 silly publish   dist: { shasum: '7ede0f229b607520c34237ea2021e26bbd338198' },
+88 silly publish   _from: '.' }
+89 verbose url raw street
+90 verbose url resolving [ 'https://registry.npmjs.org/', './street' ]
+91 verbose url resolved https://registry.npmjs.org/street
+92 info trying registry request attempt 1 at 13:44:28
+93 http PUT https://registry.npmjs.org/street
+94 http 403 https://registry.npmjs.org/street
+95 info trying registry request attempt 1 at 13:44:30
+96 http PUT https://registry.npmjs.org/street
+97 http 403 https://registry.npmjs.org/street
+98 error publish Failed PUT 403
+99 error Error: forbidden cannot modify pre-existing version: 0.6.1
+99 error old={"name":"street","version":"0.6.1","description":"Smart Uploader for S3 buckets.","main":"index.js","preferGlobal":"true","bin":{"street":"./bin/street"},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/tgroshon/street.js.git"},"keywords":["aws","s3","deploy"],"author":{"name":"tgroshon"},"license":"MIT","bugs":{"url":"https://github.com/tgroshon/street.js/issues"},"homepage":"https://github.com/tgroshon/street.js","devDependencies":{"mocha":"~1.20.1"},"dependencies":{"commander":"~2.2.0","aws-sdk":"~2.0.5","rsvp":"~3.0.9","dotenv":"~0.4.0","debug":"~1.0.3","mime":"~1.2.11"},"_id":"street@0.6.1","dist":{"shasum":"fcb217a645cfc21d6bef981a69b13c857e756006","tarball":"http://registry.npmjs.org/street/-/street-0.6.1.tgz"},"_from":".","_npmVersion":"1.3.25","_npmUser":{"name":"tgroshon","email":"tgroshon.dev@gmail.com"},"maintainers":[{"name":"tgroshon","email":"tgroshon.dev@gmail.com"}]}
+99 error new={"name":"street","version":"0.6.1","description":"Smart Uploader for S3 buckets.","main":"index.js","preferGlobal":"true","bin":{"street":"./bin/street"},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/tgroshon/street.js.git"},"keywords":["aws","s3","deploy"],"author":{"name":"tgroshon"},"license":"MIT","bugs":{"url":"https://github.com/tgroshon/street.js/issues"},"homepage":"https://github.com/tgroshon/street.js","devDependencies":{"mocha":"~1.20.1"},"dependencies":{"commander":"~2.2.0","aws-sdk":"~2.0.5","rsvp":"~3.0.9","dotenv":"~0.4.0","debug":"~1.0.3","mime":"~1.2.11"},"readme":"street.js\u000a=========\u000a\u000aSmart Uploader for AWS S3 buckets.  Generates a manifest file upon first upload;\u000asubsequent uploads only send changed files.  Especially useful as a deploy tool\u000afor uploading static websites to S3. Benefits of using Street:\u000a\u000a* Upload only changed files; reduces **PUT** requests.\u000a* GZip Compressed **manifest** file stored on S3 is very small.\u000a* Mime-type lookup on upload to facilitate proper browser handling.\u000a* Non-destructive *(mostly)*.  Works with existing buckets and data. See *Manifest\u000a  File* section below for more details.\u000a\u000atl;dr\u000a-----\u000a\u000a* Install globally with `npm install -g street` to get the `street` cli tool.\u000a* Put **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** in `.env` file\u000a  at root of your project *(also smart to add it to your `.gitignore`)*.\u000a* Run `street -e -b <Target S3 Bucket> path/to/upload/dir`\u000a\u000aInstallation\u000a------------\u000a\u000aInstall with `npm`.  A global installation is preferable:\u000a\u000a```bash\u000a# preferred global install\u000anpm install -g street\u000a\u000a# local install for specific setups\u000anpm install street\u000a```\u000a\u000aCommand Line\u000a------------\u000a\u000aA helpful interface into Street is using the command line tool `bin/street`.\u000aIf you installed globally, it should be available on your path as `street`. The\u000acommand line tool requires a path to a directory that you want to upload to S3.\u000aRun `street --help` to see a list of options.\u000a\u000a#### -e, --load-env, Load Environment Variables ####\u000a\u000aStreet includes the [dotenv](https://www.npmjs.org/package/dotenv-node) node\u000apackage for convenient Environment Variable loading.  Enter your AWS credentials\u000ainto a `.env` file at the root of your project.  Street searches for three (3)\u000avariables:\u000a\u000a1. **AWS_ACCESS_KEY_ID**\u000a2. **AWS_SECRET_ACCESS_KEY**\u000a3. **S3_BUCKET**\u000a\u000aInstead of using Environment Variables, you can some or all of these through\u000athe command line options `--aws-key`, `--aws-secret`, and `--bucket`\u000arespectively.\u000a\u000a*Example*: `street -e path/to/upload/dir`\u000a\u000a#### -b, --bucket [bucket], S3 Destination Bucket ####\u000a\u000aThe Amazon S3 bucket to be the destination of your uploaded files.\u000a\u000a*Example*: `street -b <S3 bucket name> path/to/upload/dir`\u000a\u000a#### -k, --aws-key [key], AWS Access Key Id ####\u000a\u000aThe AWS Access Key Id to be used for authenticating the S3 session.  User must\u000ahave `PUT` and `GET` permissions on the bucket.\u000a\u000a*Example*: `street -k <AWS Access Key Id> path/to/upload/dir`\u000a\u000a#### -s, --aws-secret [secret], AWS Secret Access Key ####\u000a\u000aThe AWS Secret Access Key associated with the AWS Access Key Id you are using.\u000a\u000a*Example*: `street -s <AWS Secret Key> path/to/upload/dir`\u000a\u000a#### -v, --verbose, Run with expanded messages ####\u000a\u000aShows the number of files uploaded, but not much else.  This option will do more\u000ain the future.\u000a\u000a*Example*: `street -v /path/to/upload/dir`\u000a\u000a#### -n, --dry-run, Run but do not upload ####\u000a\u000aBest if used in conjuction with `DEBUG=street:*` or `--verbose` option.\u000a\u000a*Example*:\u000a\u000a`street -n path/to/upload/dir`\u000a\u000a`street -nv path/to/upload/dir`\u000a\u000a`DEBUG=street:* street -n path/to/upload/dir`\u000a\u000aRun Programmatically\u000a--------------------\u000a\u000aRunning `var street = require('street')` will get you access to the the\u000aunderlying function.  Call the exposed function with a map of parameters:\u000a\u000a```javascript\u000avar street = require('street');\u000a\u000avar params = {\u000a  src: 'path/to/upload/dir',     // Path to directory to upload.\u000a  isDryRun: false,               // Disable upload mechanism.\u000a  dest: 'bucketname.com',        // Name of S3 Bucket to upload to.\u000a  awsKey: 'AWS Access Key Id',   // AWS Access Key Id for authentication w/ S3.\u000a  awsSecret: 'AWS Secret Key',   // AWS Secret Key for authentication w/ S3.\u000a  loadEnv: true,                 // Load Environment Variables with 'dotenv'.\u000a  verbose: true,                 // Trigger extra messages.\u000a};\u000a\u000astreet(params); // Begins Deploy Process\u000a```\u000a\u000aYou can make this part of a [Grunt](http://gruntjs.com/) task or your own,\u000astandalone deploy script.  Dealer's choice!\u000a\u000a\u000aManifest File\u000a-------------\u000aThe **manifest** file is a GZipped JSON file that maps S3 Object Keys (file\u000anames) to MD5 Hashes.\u000a\u000aThe **manifest** file is generated each time Street is run.  On the first run\u000aof Street on a specific directory, the **manifest** file is written to that\u000adirectory (called the *upload directory*), and all files it found are uploaded to\u000aS3.  The next time Street is run, a **new manifest** is generated locally, the\u000a**old manifest** is pulled down from S3, and the two files are compared to\u000asearch for differences.  The **new manifest** is only written if files have\u000abeen changed.  If files have been changed, the new **manifest** and changed\u000afiles are then uploaded to S3 where they replace the objects of the same name.\u000a\u000aThis approach has two important effects that you should be aware of:\u000a\u000a1. **\\*IMPORTANT\\*** Upon first run of Street, all files in the directory\u000a   and a new **manifest** file will be uploaded and replace S3 objects with\u000a   the same name.\u000a\u000a2. A **manifest** file on S3 does *not* hold information on all the objects in\u000a   that bucket; only on objects that Street has specifically uploaded.\u000a\u000aKeep these in mind as you work.\u000a\u000aDevelopment Tasks\u000a-----------------\u000a\u000aStreet is in *very early* development. Here are some things that would be very\u000ahelpful.\u000a\u000a* Tests, Tests, and more Tests\u000a* Integration story with Build/Deploy tools like Grunt, Gulp, or Broccoli\u000a* Performance Benchmarks (because people always ask)\u000a","readmeFilename":"README.md","_id":"street@0.6.1","dist":{"shasum":"7ede0f229b607520c34237ea2021e26bbd338198","tarball":"http://registry.npmjs.org/street/-/street-0.6.1.tgz"},"_from":".","_npmVersion":"1.3.25","_npmUser":{"name":"tgroshon","email":"tgroshon.dev@gmail.com"},"maintainers":[{"name":"tgroshon","email":"tgroshon.dev@gmail.com"}]}: street
+99 error     at RegClient.<anonymous> (/usr/local/Cellar/nvm/0.5.0/v0.11.11/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+99 error     at Request.self.callback (/usr/local/Cellar/nvm/0.5.0/v0.11.11/lib/node_modules/npm/node_modules/request/request.js:123:22)
+99 error     at Request.EventEmitter.emit (events.js:107:17)
+99 error     at Request.<anonymous> (/usr/local/Cellar/nvm/0.5.0/v0.11.11/lib/node_modules/npm/node_modules/request/request.js:893:14)
+99 error     at Request.EventEmitter.emit (events.js:126:20)
+99 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/nvm/0.5.0/v0.11.11/lib/node_modules/npm/node_modules/request/request.js:844:12)
+99 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+99 error     at _stream_readable.js:896:16
+99 error     at process._tickCallback (node.js:664:11)
+100 error If you need help, you may report this *entire* log,
+100 error including the npm and node versions, at:
+100 error     <http://github.com/isaacs/npm/issues>
+101 error System Darwin 13.3.0
+102 error command "/usr/local/opt/nvm/v0.11.11/bin/node" "/usr/local/opt/nvm/v0.11.11/bin/npm" "publish"
+103 error cwd /Users/tgroshong/Projects/street.js
+104 error node -v v0.11.11
+105 error npm -v 1.3.25
+106 verbose exit [ 1, true ]
