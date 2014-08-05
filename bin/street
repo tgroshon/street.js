@@ -7,7 +7,7 @@ var fs = require('fs')
 var street = require('../index')
 
 program
-  .version('0.1.0')
+  .version('0.7.1')
   .usage('[options] <dir ...>')
   .option('-n, --dry-run', 'Dry Run')
   .option('-e, --load-env', 'Load Environment Variables with "dotenv" package')

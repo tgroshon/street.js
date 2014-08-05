@@ -1,6 +1,6 @@
 {
   "name": "street",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Smart Uploader for S3 buckets.",
   "main": "index.js",
   "preferGlobal": "true",
