@@ -15,9 +15,9 @@ tl;dr
 -----
 
 * Install globally with `npm install -g street` to get the `street` cli tool.
-* Put **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** in `.env` file
+* Set **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** environment variables
   at root of your project *(also smart to add it to your `.gitignore`)*.
-* Run `street -e -b <Target S3 Bucket> path/to/upload/dir`
+* Run `street --bucket <Target S3 Bucket> path/to/upload/dir`
 
 Installation
 ------------
@@ -39,23 +39,6 @@ A helpful interface into Street is using the command line tool `bin/street`.
 If you installed globally, it should be available on your path as `street`. The
 command line tool requires a path to a directory that you want to upload to S3.
 Run `street --help` to see a list of options.
-
-#### -e, --load-env, Load Environment Variables ####
-
-Street includes the [dotenv](https://www.npmjs.org/package/dotenv-node) node
-package for convenient Environment Variable loading.  Enter your AWS credentials
-into a `.env` file at the root of your project.  Street searches for three (3)
-variables:
-
-1. **AWS_ACCESS_KEY_ID**
-2. **AWS_SECRET_ACCESS_KEY**
-3. **S3_BUCKET**
-
-Instead of using Environment Variables, you can some or all of these through
-the command line options `--aws-key`, `--aws-secret`, and `--bucket`
-respectively.
-
-*Example*: `street -e path/to/upload/dir`
 
 #### -b, --bucket [bucket], S3 Destination Bucket ####
 
@@ -112,6 +95,7 @@ var params = {
   awsSecret: 'AWS Secret Key',   // AWS Secret Key for authentication w/ S3.
   loadEnv: true,                 // Load Environment Variables with 'dotenv'.
   verbose: true,                 // Trigger extra messages.
+  logstream: process.stdout      // The stream to write logs to
 };
 
 street(params); // Begins Deploy Process
